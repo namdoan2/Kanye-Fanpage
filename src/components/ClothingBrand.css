@@ -1,0 +1,33 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.yeezy {
+    margin: 20px 50px;
+    font-size: 18px;
+}
+
+.season {
+    margin: 20px 60px;
+    font-size: 18px;
+}
+
+.gap {
+    margin: 20px 70px;
+    font-size: 18px;
+}
+
+aside {
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+img {
+    margin-bottom: 0;
+    max-width: 400px;
+    max-height: 400px;
+}
+h2 {
+    font-size: 25px;
+}

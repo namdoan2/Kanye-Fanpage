@@ -1,0 +1,46 @@
+button {
+    display: block;
+    width: 20%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 60px;
+    border-radius: 10px;
+    height: 40px;
+    border: none;
+    background-color: lightgray;
+    color:black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+button:hover {
+    color: white;
+    background-color: rgb(83, 82, 82);
+}
+.quote {
+    display: block;
+    width: 25%;
+    margin-right: 60px;
+    margin-left: auto;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    float: right;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+@media all and (max-width: 780px) {
+    .quote {
+      display: block;
+      width: 50%;
+      margin-right: 10px;
+      margin-left: auto;
+      margin-top: 20px;
+      margin-bottom: 40px;
+      float: right;
+      font-size: 20px;
+  }
+  button {
+    width: 100px;
+    height: 50px;
+    margin-top: 20px;
+  }
+  }
