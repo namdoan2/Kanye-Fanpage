@@ -5,7 +5,7 @@ const AlbumCard = ({title, imageURL, body}) => {
     return(
         <div className="albumcard">
             <div className="image">
-                <img src={imageURL} alt="image of album cover" />
+                <img src={imageURL} alt="album cover" />
             </div>
                 <div className="title">
                     <h3>{title}</h3>
